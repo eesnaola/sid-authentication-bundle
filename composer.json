@@ -1,0 +1,45 @@
+{
+    "name": "eesnaola/sid-authentication-bundle",
+    "type": "symfony-bundle",
+    "description": "Session id authentication bundle for Symfony",
+    "keywords": ["sid","authentication", "bundle", "syfony"],
+    "homepage": "https://github.com/eesnaola/sid-authentication-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ezequiel Esnaola",
+            "email": "eze.esnaola@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "symfony/framework-bundle": "^2.7 || ^3.0",
+        "symfony/security-bundle": "^2.7 || ^3.0",
+        "doctrine/doctrine-bundle": "^1.3"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^1.11",
+        "symfony/console": "^2.7 || ^3.0",
+        "symfony/phpunit-bridge": "^2.7 || ^3.0",
+        "symfony/validator": "^2.7 || ^3.0",
+        "symfony/yaml": "^2.7 || ^3.0",
+        "phpunit/phpunit": "~4.8|~5.0"
+    },
+    "suggest": {
+        "symfony/symfony": "To use as a bundle"
+    },
+    "autoload": {
+        "psr-0": {
+            "EES\\SidAuthenticationBundle\\": ""
+        }
+    },
+    "target-dir": "EES/SidAuthenticationBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev-master"
+        }
+    },
+    "support": {
+        "docs": "https://github.com/eesnaola/sid-authentication-bundle/wiki"
+    }
+}
