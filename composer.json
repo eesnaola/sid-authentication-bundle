@@ -36,7 +36,7 @@
     "target-dir": "EES/SidAuthenticationBundle",
     "extra": {
         "branch-alias": {
-            "master": "dev-master"
+            "master": "1.0.0-dev"
         }
     },
     "support": {
