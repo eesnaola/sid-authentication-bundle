@@ -29,7 +29,7 @@
         "symfony/symfony": "To use as a bundle"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "EES\\SidAuthenticationBundle\\": ""
         }
     },
